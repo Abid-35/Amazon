@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Amazon</title>
 </head>
 <body>
@@ -64,13 +64,24 @@
             
         </div>
     </header>
-    <hero>
-        <div class="hero-section">
-            <div class="hero-bar">
-                <p> You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in </a></p>
-            </div>
+<hero>
+    <div class="hero-slider">
+        <div class="slides">
+            <img src="Hero01.jpg" alt="Slide 1">
+            <img src="Hero02.jpg" alt="Slide 2">
+            <img src="Hero03.jpg" alt="Slide 3">
+            <img src="Hero04.jpg" alt="Slide 4">
         </div>
-    </hero>
+        <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+        <div class="hero-bar">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. 
+                <a>Click here to go to amazon.in</a>
+            </p>
+        </div>
+    </div>
+</hero>
+
 
     <div class="Shop-section">
         <div class="box-b">
@@ -254,5 +265,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
